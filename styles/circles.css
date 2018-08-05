@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 36px;
+    height: 36px;
+    padding: 12px;
+    
+    
+    background: #e60073;
+    border: 18px solid #ffcce0;
+    color: #ffffff;
+    text-align: center;
+    
+    font: 24px Permanent Marker, cursive;
+}
+.parent {
+  display: flex;
+}
